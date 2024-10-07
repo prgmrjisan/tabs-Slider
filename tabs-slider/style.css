@@ -1,0 +1,58 @@
+body{background: ''; font-family: cursive;}
+.main{width: 700px;margin: 50px auto;position: relative; /*overflow: hidden; display: block;*/}
+.btn-box{display: block; /*z-index: 3*/}
+.btn{margin-bottom: 3px; padding: 10px 20px; border: 0; background: transparent; cursor: pointer; font-size: 1em;}.btn.active{background-color: red; color: #fff;}
+#btn1{}
+#btn2{}
+#btn3{}
+.content{
+    position: absolute;
+    padding: 15px 20px;
+    background: #fff48f;
+    color: #000000;
+    /* font-size: 18px; */
+    /* transition: inherit; */
+    
+    display: none;
+    transition: 3s;
+	/*z-index:1;
+	transform: matrix(1, 0, 0, 1, 21, 0);
+   transform: translateX(100%);*/
+}
+.content h1{font-weight: 300px;margin-left: 20px}
+.content p{
+    margin: 20px;
+}
+.content a{margin-left: 20px;
+    text-decoration: none;
+    border: 3px solid #00ffba;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: black;
+    /* margin-bottom: 69px; */
+    /* margin-bottom: 13%; */
+	margin-top: 20px;
+}
+#content1 {
+	/*	transform: translateX(0px);*/
+		 display: block; 
+		
+	}
+#content2 {
+	/*	transform: translateX(0px);
+		 display: block; */
+		
+	}
+#content3 {
+	/*	transform: translateX(0px);
+		/* display: block; */
+			
+	}
+#btn1{/*background-color: red; color: #fff; */}
+#btn2{}
+#btn3{}
+
+
+
+
+
